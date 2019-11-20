@@ -1,0 +1,45 @@
+<html>
+    <head></head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="main">
+                    <div class="sub"><img src="../../assets/images/the-menu-logo.jpg"></div>
+                    <div class="sub">
+                        <div class="form">
+                            <div class="containt">
+                                    <h1 style="margin-bottom: 13%;">Login Page</h1>
+                                    <form>
+                                        <div class="input-group mb-3"> 
+                                            <input type="text" name="" class="form-control input_user" value="" placeholder="username" [(ngModel)]="username">
+                                        </div>
+                                        <div class="input-group mb-2">   
+                                            <input type="password" name="" class="form-control input_pass" value="" placeholder="password" [(ngModel)]="password">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customControlInline">
+                                                <label class="custom-control-label" for="customControlInline">Remember me</label>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-center mt-3 login_container">
+                                            <button type="button" name="button" class="btn login_btn" (click)="validate()">Login</button>
+                                       </div>
+                                    </form>
+                            
+                                    <div class="mt-4" style="text-align: center;">
+                                        <div class="d-flex justify-content-center links">
+                                            Don't have an account? <a href="#" class="ml-2">Sign Up</a>
+                                        </div>
+                                        <div class="d-flex justify-content-center links">
+                                            <a href="#">Forgot your password?</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

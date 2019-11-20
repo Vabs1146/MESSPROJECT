@@ -1,0 +1,50 @@
+
+.container{
+    
+    height: 710px;
+    background-image: url('../../assets/images/thali.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main{
+    width: 60%;
+    float: left;
+    margin: 7% 0 0 20%;
+}
+
+.sub{
+    float: left;
+}
+
+.sub img{
+    margin: 8% 0 0 16%;
+    height: 400px;
+}
+
+.form{
+    background-color: blue;
+    height:400px;
+    width: 360px;
+    text-align: center;
+    margin: 8% 0 0 17%;
+}
+
+.containt{
+    padding: 10px;
+}
+
+.input-group input{
+    width: 80%;
+    height: 30px;
+}
+
+input,button{
+    margin-bottom: 20px;
+}
+
+button{
+    height: 50px;width: 60px;
+}
